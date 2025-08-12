@@ -1,0 +1,37 @@
+.subtleLink {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-color: color-mix(in srgb, currentColor 30%, transparent);
+	text-underline-offset: 2px;
+	position: relative;
+	display: inline;
+	transition: all 0.2s ease;
+}
+
+.subtleLink:hover {
+	color: var(--accent-color, #0070f3);
+	text-decoration-color: var(--accent-color, #0070f3);
+}
+
+.subtleLink:focus-visible {
+	outline: 2px solid var(--accent-color, #0070f3);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+/* Animated underline that appears on hover */
+.subtleLink::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--accent-color, #0070f3);
+	transition: width 0.2s ease;
+	z-index: 1;
+}
+
+.subtleLink:hover::after {
+	width: 100%;
+}

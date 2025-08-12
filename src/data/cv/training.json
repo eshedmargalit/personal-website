@@ -1,0 +1,34 @@
+[
+	{
+		"labName": "Stanford NeuroAI Lab (SNAIL)",
+		"pi": "Dan Yamins",
+		"url": "http://neuroailab.stanford.edu/",
+		"start": "2016",
+		"end": "2023",
+		"description": "Building robust, efficient, and powerful models of structure-function coupling in visual cortex"
+	},
+	{
+		"labName": "Vision and Perception Neuroscience Lab (VPNL)",
+		"pi": "Kalanit Grill-Spector",
+		"url": "http://vpnl.stanford.edu/",
+		"start": "2016",
+		"end": "2023",
+		"description": "Characterization of human higher visual cortex via ultra-high-resolution fMRI"
+	},
+	{
+		"labName": "Image Understanding Lab (IUL)",
+		"pi": "Irving Biederman",
+		"url": "",
+		"start": "2014",
+		"end": "2016",
+		"description": "Interrogating object representations in visual cortex and psychophysical correlates of developmental prosopagnosia"
+	},
+	{
+		"labName": "Emotion and Cognition Lab",
+		"pi": "Mara Mather",
+		"url": "http://gero.usc.edu/labs/matherlab/",
+		"start": "2013",
+		"end": "2014",
+		"description": "Investigating the role of the noradrenergic system in aging and memory"
+	}
+]

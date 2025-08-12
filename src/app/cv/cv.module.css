@@ -1,0 +1,257 @@
+/* ==================================
+   PAGE LAYOUT
+   ================================== */
+
+.cvTitle {
+	text-align: center;
+	margin: 2rem 0 1rem 0;
+}
+
+.cv h1 {
+	text-align: center;
+	margin: 2rem 0 1rem 0;
+}
+
+.sectionDivider {
+	border: none;
+	height: 1px;
+	background: var(--foreground);
+	margin: 2rem 0;
+	opacity: 0.2;
+}
+
+/* ==================================
+   CV SECTIONS
+   ================================== */
+
+.cvSection {
+	margin-bottom: 1.5rem;
+}
+
+.cvSection h2 {
+	color: var(--foreground);
+	font-size: 1.4rem;
+	font-weight: 600;
+	margin-bottom: 0.75rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.cvSection h2::before,
+.cvSection h2::after {
+	content: "";
+	flex: 1;
+	height: 2px;
+	background: var(--foreground);
+	opacity: 0.3;
+}
+
+.cvSection h2 span {
+	flex-shrink: 0;
+}
+
+.subsectionTitle {
+	color: var(--foreground);
+	font-size: 1.1rem;
+	font-weight: 500;
+	margin: 1.25rem 0 0.5rem 0;
+}
+
+/* ==================================
+   CV ITEMS
+   ================================== */
+
+.cvItem {
+	margin-bottom: 0.75rem;
+}
+
+.cvContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.cvMain {
+	flex: 1;
+}
+
+.cvDate {
+	color: var(--foreground);
+	font-weight: 400;
+	white-space: nowrap;
+	font-size: 0.85rem;
+	margin-top: 0.1rem;
+	opacity: 0.8;
+}
+
+/* ==================================
+   CV ITEM CONTENT
+   ================================== */
+
+.cvItem h3 {
+	margin: 0 0 0.25rem 0;
+	font-size: 1.05rem;
+	font-weight: 600;
+}
+
+.institution,
+.pi,
+.course,
+.organization {
+	margin: 0.1rem 0;
+	font-weight: 500;
+	color: var(--foreground);
+	opacity: 0.8;
+}
+
+.description,
+.detail {
+	margin: 0.1rem 0;
+	font-size: 0.9rem;
+	opacity: 0.9;
+}
+
+/* ==================================
+   PUBLICATIONS
+   ================================== */
+
+.publication {
+	margin-bottom: 0.5rem;
+}
+
+.pubTitle {
+	margin: 0 0 0.15rem 0;
+	font-weight: 600;
+}
+
+.pubAuthors {
+	margin: 0.1rem 0;
+	font-size: 0.9rem;
+}
+
+.pubJournal {
+	margin: 0.1rem 0;
+	font-size: 0.85rem;
+	opacity: 0.8;
+}
+
+.highlightedName {
+	font-weight: 700;
+	color: var(--accent-color);
+}
+
+/* ==================================
+   LINKS & INTERACTIONS
+   ================================== */
+
+.cvItem h3 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.cvItem h3 a:hover {
+	color: var(--accent-color);
+	text-decoration: underline;
+}
+
+.cvItem .pubTitle a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.cvItem .pubTitle a:hover {
+	color: var(--accent-color);
+	text-decoration: underline;
+}
+
+/* SubtleLink styles for CV items */
+.cvItem h3 a[class*="subtleLink"] {
+	text-decoration: underline !important;
+	text-decoration-color: color-mix(in srgb, currentColor 50%, transparent) !important;
+	text-underline-offset: 2px !important;
+}
+
+/* SubtleLink styles for publications */
+.cvItem .pubTitle a[class*="subtleLink"] {
+	text-decoration: underline !important;
+	text-decoration-color: color-mix(in srgb, currentColor 50%, transparent) !important;
+	text-underline-offset: 2px !important;
+}
+
+/* ==================================
+   CV DOWNLOAD
+   ================================== */
+
+.cvDownload {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.cvDownloadLink {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.25rem 0.75rem;
+	color: var(--foreground);
+	text-decoration: none;
+	font-size: 0.9rem;
+	border: 1px solid var(--foreground);
+	transition:
+		border-color 0.2s ease,
+		box-shadow 0.2s ease,
+		background-color 0.2s ease;
+	opacity: 0.7;
+}
+
+.cvDownloadLink:hover {
+	opacity: 1;
+	border-color: var(--accent-color);
+	box-shadow: inset 0 0 0 1px var(--accent-color);
+	background-color: color-mix(in srgb, var(--accent-color) 5%, transparent);
+}
+
+.cvLinks {
+	text-align: center;
+	margin-bottom: 2rem;
+	font-size: 0.9rem;
+}
+
+.downloadIcon {
+	font-size: 1rem;
+}
+
+/* ==================================
+   RESPONSIVE DESIGN
+   ================================== */
+
+@media (max-width: 768px) {
+	.cvContent {
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.cvDate {
+		white-space: normal;
+		margin-top: 0;
+	}
+
+	.cvSection h2 {
+		font-size: 1.2rem;
+	}
+
+	.subsectionTitle {
+		font-size: 1rem;
+	}
+
+	.cvSection {
+		margin-bottom: 1.25rem;
+	}
+
+	.cvItem {
+		margin-bottom: 0.5rem;
+	}
+}

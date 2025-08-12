@@ -1,0 +1,110 @@
+[
+	{
+		"title": "Topographic deep neural networks predict the functional organization of the primate ventral visual pathway (virtual poster)",
+		"authors": [
+			"Margalit, E.",
+			"Lee, H.",
+			"DiCarlo, J.J.",
+			"Grill-Spector, K.",
+			"Yamins, D.L.K."
+		],
+		"journal": "SfN",
+		"year": "2021",
+		"url": "/posters/2021.Margalit_Eshed.SfN_PDF.pdf",
+		"tag": "sfn-2021-spacenet"
+	},
+	{
+		"title": "Correlation-based spatial layout of deep neural network features generates ventral stream topography",
+		"authors": [
+			"Margalit, E.",
+			"Lee, H.",
+			"Marques, T.",
+			"DiCarlo, J.J.",
+			"Yamins, D.L.K."
+		],
+		"journal": "COSYNE",
+		"year": "2020",
+		"url": "/posters/2020.Margalit_Eshed.COSYNE.png",
+		"tag": "cosyne-2020-spacenet"
+	},
+	{
+		"title": "Pinwheel-like Iso-Orientation Domains in a Convolutional Neural Network Model",
+		"authors": ["Margalit, E.", "Lee, H.", "DiCarlo, J.J.", "Yamins, D.L.K."],
+		"journal": "Annual Meeting of the Vision Sciences Society (VSS)",
+		"year": "2018",
+		"url": "",
+		"tag": "vss-2018-pinwheel"
+	},
+	{
+		"title": "What is the nature of the perceptual deficit in congenital prosopagnosia?",
+		"authors": [
+			"Biederman, I.",
+			"Margalit, E.",
+			"Maarek, R.",
+			"Meschke, E.X.",
+			"Shilowich, B.E.",
+			"Hacker, C.M.",
+			"Juarez, J.J.",
+			"Seamans, T.J.",
+			"Herald, S.B."
+		],
+		"journal": "Annual Meeting of the Vision Sciences Society",
+		"year": "2017",
+		"url": "",
+		"tag": "vss-2017-whatis"
+	},
+	{
+		"title": "What is actually affected by the scrambling of objects when localizing the lateral occipital complex?",
+		"authors": ["Biederman, I.", "Margalit, E.", "Tjan, B.S.", "Shah, M.P."],
+		"journal": "Annual Meeting of the Society of Experimental Psychologists",
+		"year": "2016",
+		"url": "",
+		"tag": "sep-2016-whatis"
+	},
+	{
+		"title": "Vertices are effective in perceptual grouping (and ungrouping)",
+		"authors": ["Irawan, I.", "Margalit, E.", "Herald, S.B.", "Biederman, I."],
+		"journal": "Annual Meeting of the Vision Sciences Society",
+		"year": "2016",
+		"url": "",
+		"tag": "vss-2016-vertices"
+	},
+	{
+		"title": "Impaired face and non-face discrimination in developmental prosopagnosics (DPs)",
+		"authors": ["Margalit, E.", "Yue, X.", "Biederman, I."],
+		"journal": "Annual Meeting of the Vision Sciences Society",
+		"year": "2016",
+		"url": "",
+		"tag": "vss-2016-impaired"
+	},
+	{
+		"title": "Neuromelanin marks the spot: a locus coeruleus substrate of cognitive reserve in healthy aging",
+		"authors": [
+			"Clewett, D.",
+			"Lee, T.H.",
+			"Greening, S.G.",
+			"Ponzio, A.",
+			"Margalit, E.",
+			"Mather, M."
+		],
+		"journal": "USC Neuroscience Graduate Student Symposium",
+		"year": "2015",
+		"url": "",
+		"tag": "usc-2015-neuromelanin"
+	},
+	{
+		"title": "Phonagnosia, a voice homologue to prosopagnosia",
+		"authors": [
+			"Biederman, I.",
+			"Herald, S.B.",
+			"Xu, X.",
+			"Amir, O.",
+			"Shilowich, B.E.",
+			"Margalit, E."
+		],
+		"journal": "Annual Meeting of the Vision Sciences Society",
+		"year": "2015",
+		"url": "",
+		"tag": "vss-2015-phonagnosia"
+	}
+]

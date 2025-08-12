@@ -1,0 +1,21 @@
+[
+	{
+		"institution": "Stanford University",
+		"degree": "PhD",
+		"topic": "Neurosciences",
+		"start": "2016",
+		"end": "2022",
+		"details": [
+			"Advisors: Prof. Daniel Yamins & Prof. Kalanit Grill-Spector",
+			"Dissertation: A Unified Model of the Structure and Function of Primate Visual Cortex"
+		]
+	},
+	{
+		"institution": "University of Southern California",
+		"degree": "BS",
+		"topic": "Computational Neuroscience",
+		"start": "2012",
+		"end": "2016",
+		"details": ["Minor in Computer Science, 3.99 overall GPA"]
+	}
+]

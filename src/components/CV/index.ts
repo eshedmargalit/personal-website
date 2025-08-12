@@ -1,0 +1,11 @@
+export { AwardsSection } from "./AwardsSection";
+export { CVContent, CVDate, CVItem, CVMain } from "./CVComponents";
+export { CVSection } from "./CVSection";
+export { EducationSection } from "./EducationSection";
+export { MentorshipSection } from "./MentorshipSection";
+export { PresentationsSection } from "./PresentationsSection";
+export { PublicationsSection } from "./PublicationsSection";
+export { ScicommSection } from "./ScicommSection";
+export { ServiceSection } from "./ServiceSection";
+export { TeachingSection } from "./TeachingSection";
+export { TrainingSection } from "./TrainingSection";

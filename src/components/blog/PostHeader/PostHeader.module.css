@@ -1,0 +1,57 @@
+.header {
+	margin-bottom: 3rem;
+}
+
+.coverImageContainer {
+	width: 100%;
+	margin-bottom: 2rem;
+	overflow: hidden;
+}
+
+.coverImage {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.content {
+	text-align: center;
+}
+
+.title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 0 0 1rem 0;
+	color: var(--foreground);
+}
+
+.tagline {
+	font-size: 1.2rem;
+	color: #666;
+	margin: 0 0 1rem 0;
+	line-height: 1.4;
+}
+
+.date {
+	display: block;
+	font-size: 1rem;
+	color: #666;
+	font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+	.date {
+		color: #aaa;
+	}
+
+	.tagline {
+		color: #aaa;
+	}
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 2rem;
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"name": "website",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format": "biome format --write src",
+		"format:check": "biome format src",
+		"lint:biome": "biome lint src",
+		"lint:biome:fix": "biome lint --write src",
+		"check": "biome check src",
+		"check:fix": "biome check --write src"
+	},
+	"dependencies": {
+		"gray-matter": "^4.0.3",
+		"next": "15.3.4",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-icons": "^5.5.0",
+		"rehype-autolink-headings": "^7.1.0",
+		"rehype-figure": "^1.0.1",
+		"rehype-slug": "^6.0.0",
+		"rehype-stringify": "^10.0.1",
+		"remark": "^15.0.1",
+		"remark-gfm": "^4.0.1",
+		"remark-html": "^16.0.1",
+		"remark-rehype": "^11.1.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.6",
+		"@eslint/eslintrc": "^3",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "15.3.4",
+		"typescript": "^5"
+	}
+}

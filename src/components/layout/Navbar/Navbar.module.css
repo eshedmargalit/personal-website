@@ -1,0 +1,38 @@
+.navbar {
+	padding: 0.5rem 0.5rem;
+	font-size: 1rem;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.navbarContainer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.defaultLayout {
+	justify-content: space-between;
+}
+
+.homePageLayout {
+	justify-content: flex-end;
+}
+
+.navbar ul {
+	list-style-type: none;
+	display: flex;
+	gap: 0.8rem;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		padding: 0.8rem 1rem;
+	}
+
+	.navbar ul {
+		gap: 1rem;
+	}
+}

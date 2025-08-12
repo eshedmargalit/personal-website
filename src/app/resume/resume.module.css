@@ -1,0 +1,176 @@
+/* ==================================
+   RESUME PAGE LAYOUT
+   ================================== */
+
+.resumeTitle {
+	text-align: center;
+	margin: 2rem 0 1rem 0;
+}
+
+.resumeDownload {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+/* ==================================
+   RESUME DOWNLOAD LINK
+   ================================== */
+.resumeDownloadLink {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.25rem 0.75rem;
+	color: var(--foreground);
+	font-size: 0.9rem;
+	border: 1px solid var(--foreground);
+	transition:
+		border-color 0.2s ease,
+		box-shadow 0.2s ease,
+		background-color 0.2s ease;
+	opacity: 0.7;
+}
+
+.resumeDownloadLink:hover {
+	opacity: 1;
+	border-color: var(--accent-color);
+	box-shadow: inset 0 0 0 1px var(--accent-color);
+	background-color: color-mix(in srgb, var(--accent-color) 5%, transparent);
+}
+
+.resumeLinks {
+	text-align: center;
+	margin-bottom: 2rem;
+	font-size: 0.9rem;
+}
+
+.downloadIcon {
+	font-size: 1rem;
+}
+
+.resumeContent p {
+	line-height: 1.4;
+}
+
+.centeredText {
+	text-align: center;
+}
+
+.resumeSection {
+	margin-bottom: 2rem;
+}
+
+.resumeSection h2 {
+	color: var(--foreground);
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.resumeSection h2::before,
+.resumeSection h2::after {
+	content: "";
+	flex: 1;
+	height: 2px;
+	background: var(--foreground);
+	opacity: 0.3;
+}
+
+.resumeSection h2 span {
+	flex-shrink: 0;
+}
+
+/* ==================================
+   SKILLS SECTION
+   ================================== */
+
+.skillsGrid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 1rem 0;
+}
+
+/* ==================================
+   RESUME ITEMS
+   ================================== */
+
+.resumeItem {
+	margin-bottom: 1.5rem;
+}
+
+.resumeItemHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 0.5rem;
+	gap: 1rem;
+}
+
+.resumeItemTitle {
+	flex: 1;
+	font-size: 1rem;
+}
+
+.resumeDate {
+	font-size: 0.9rem;
+	color: color-mix(in srgb, var(--foreground) 70%, transparent);
+	white-space: nowrap;
+	font-weight: 500;
+}
+
+.resumeItemDetails {
+	margin-left: 0;
+	color: color-mix(in srgb, var(--foreground) 85%, transparent);
+}
+
+.resumeItemDetails ul {
+	margin: 0.5rem 0 0 1.25rem;
+	padding: 0;
+}
+
+.resumeItemDetails li {
+	margin-bottom: 0.25rem;
+}
+
+/* ==================================
+   RESPONSIVE DESIGN
+   ================================== */
+
+@media (max-width: 768px) {
+	.resumeContent {
+		padding: 0 0.5rem;
+	}
+
+	.resumeItemHeader {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.25rem;
+	}
+
+	.resumeDate {
+		white-space: normal;
+	}
+
+	.resumeSection h2 {
+		font-size: 1.1rem;
+	}
+
+	.skillsGrid {
+		gap: 0.5rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.resumeItemDetails ul {
+		margin-left: 1rem;
+	}
+
+	.skillsGrid {
+		gap: 0.4rem;
+	}
+}

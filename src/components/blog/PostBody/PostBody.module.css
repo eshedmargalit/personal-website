@@ -1,0 +1,244 @@
+.content {
+	line-height: 1.4;
+}
+
+.markdown {
+	font-size: 1.1rem;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+	margin: 2rem 0 1rem 0;
+	line-height: 1.3;
+	color: var(--foreground);
+	position: relative;
+}
+
+.markdown h1 {
+	font-size: 2rem;
+	border-bottom: 2px solid var(--accent-color);
+	padding-bottom: 0.5rem;
+}
+
+.markdown h2 {
+	font-size: 1.6rem;
+}
+
+.markdown h3 {
+	font-size: 1.3rem;
+}
+
+.markdown p {
+	margin: 1.5rem 0;
+}
+
+.markdown ul,
+.markdown ol {
+	margin: 1.5rem 0;
+	padding-left: 2rem;
+}
+
+.markdown li {
+	margin: 0.5rem 0;
+}
+
+.markdown blockquote {
+	margin: 2rem 0;
+	padding: 1rem 1.5rem;
+	border-left: 4px solid var(--accent-color);
+	background: rgba(0, 0, 0, 0.03);
+	font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+	.markdown blockquote {
+		background: rgba(255, 255, 255, 0.05);
+	}
+}
+
+.markdown code {
+	background: rgba(0, 0, 0, 0.05);
+	padding: 0.2rem 0.4rem;
+	border-radius: 4px;
+	font-family: "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", monospace;
+	font-size: 0.9em;
+}
+
+@media (prefers-color-scheme: dark) {
+	.markdown code {
+		background: rgba(255, 255, 255, 0.1);
+	}
+}
+
+.markdown pre {
+	background: rgba(0, 0, 0, 0.05);
+	padding: 1.5rem;
+	border-radius: 8px;
+	overflow-x: auto;
+	margin: 2rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.markdown pre {
+		background: rgba(255, 255, 255, 0.05);
+	}
+}
+
+.markdown pre code {
+	background: none;
+	padding: 0;
+}
+
+.markdown a {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-color: color-mix(in srgb, currentColor 30%, transparent);
+	text-underline-offset: 2px;
+	position: relative;
+	display: inline;
+	transition: all 0.2s ease;
+}
+
+.markdown a:hover {
+	color: var(--accent-color);
+	text-decoration-color: var(--accent-color);
+}
+
+.markdown a:focus-visible {
+	outline: 2px solid var(--accent-color);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+/* Animated underline that appears on hover */
+.markdown a::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--accent-color);
+	transition: width 0.2s ease;
+	z-index: 1;
+}
+
+.markdown a:hover::after {
+	width: 100%;
+}
+
+.markdown img {
+	max-height: 500px;
+	max-width: 100%;
+	height: auto;
+	margin: 1rem 0;
+	border: 1px solid color-mix(in srgb, var(--foreground) 80%, black 20%);
+}
+
+.markdown figure {
+	margin: 2rem 0;
+	text-align: center;
+}
+
+.markdown figure img {
+	margin: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.markdown figcaption {
+	margin-top: 0.5rem;
+	font-size: 0.9rem;
+	color: var(--foreground-muted, rgba(0, 0, 0, 0.7));
+	font-style: italic;
+	text-align: center;
+	line-height: 1.4;
+}
+
+@media (prefers-color-scheme: dark) {
+	.markdown figcaption {
+		color: var(--foreground-muted, rgba(255, 255, 255, 0.7));
+	}
+}
+
+.markdown hr {
+	border: none;
+	height: 2px;
+	background: var(--accent-color);
+	margin: 3rem 0;
+}
+
+/* Footnotes */
+.markdown .footnotes {
+	border-top: 2px solid var(--accent-color);
+	margin-top: 3rem;
+	padding-top: 1.5rem;
+	font-size: 0.9rem;
+}
+
+.markdown .footnotes ol {
+	padding-left: 1.2rem;
+}
+
+.markdown .footnotes li {
+	margin: 0.75rem 0;
+	line-height: 1.5;
+}
+
+.markdown .footnotes li p {
+	margin: 0.5rem 0;
+}
+
+.markdown .footnotes a {
+	color: var(--accent-color);
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.markdown .footnotes a:hover {
+	text-decoration: underline;
+}
+
+/* Footnote reference links in text */
+.markdown a[href^="#fn"] {
+	color: var(--accent-color);
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 0.85em;
+	vertical-align: super;
+	line-height: 0;
+}
+
+.markdown a[href^="#fn"]:hover {
+	text-decoration: underline;
+}
+
+/* Footnote back-references */
+.markdown a[href^="#fnref"] {
+	color: var(--accent-color);
+	text-decoration: none;
+	margin-left: 0.25rem;
+}
+
+.markdown a[href^="#fnref"]:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.markdown {
+		font-size: 1rem;
+	}
+
+	.markdown h1 {
+		font-size: 1.7rem;
+	}
+
+	.markdown h2 {
+		font-size: 1.4rem;
+	}
+}

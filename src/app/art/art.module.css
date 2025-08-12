@@ -1,0 +1,23 @@
+.header {
+	margin-top: 3rem;
+}
+
+.gallery {
+	margin-top: 3rem;
+
+	/* Creates a responsive grid layout that automatically adjusts the number of columns
+   based on available space. Each column has a minimum width of 400px and will
+   grow to fill remaining space equally. When the container is too narrow for
+   multiple 400px columns, items will wrap to new rows. */
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	gap: 2rem;
+}
+
+@media (max-width: 768px) {
+	.gallery {
+		/* On smaller screens, reduce the gap and ensure items are stacked vertically */
+		grid-template-columns: 1fr;
+		gap: 3rem;
+	}
+}

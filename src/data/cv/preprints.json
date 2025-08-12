@@ -1,0 +1,54 @@
+[
+	{
+		"title": "Do Topographic Deep ANN Models of the Primate Ventral Stream Predict the Perceptual Effects of Direct IT Cortical Interventions?",
+		"authors": ["Schrimpf, M.", "McGrath, P.", "Margalit, E.", "DiCarlo, J.J."],
+		"journal": "bioRxiv",
+		"year": "2024",
+		"url": "https://www.biorxiv.org/content/10.1101/2024.01.09.572970v1",
+		"tag": "br-2024-perturb"
+	},
+	{
+		"title": "Extensive individual differences of category information in ventral temporal cortex in the congenitally blind",
+		"authors": [
+			"Rosenke, M.",
+			"van den Hurk, J.",
+			"Margalit, E.",
+			"Op de Beeck, H.P.",
+			"Grill-Spector, K.",
+			"Weiner, K.S."
+		],
+		"journal": "bioRxiv",
+		"year": "2020",
+		"url": "https://www.biorxiv.org/content/10.1101/2020.06.14.151092v1",
+		"tag": "br-2020-blind"
+	},
+	{
+		"title": "Validation and generalization of pixel-wise relevance in convolutional neural networks trained for face classification",
+		"authors": [
+			"Crawford, J.",
+			"Margalit, E.",
+			"Grill-Spector, K.",
+			"Poltoratski, S."
+		],
+		"journal": "arXiv",
+		"year": "2020",
+		"url": "https://arxiv.org/abs/2006.16795",
+		"tag": "ar-2020-pixels"
+	},
+	{
+		"title": "Topographic deep artificial neural networks reproduce the hallmarks of the primate inferior temporal cortex face processing network",
+		"authors": [
+			"Lee, H.",
+			"Margalit, E.",
+			"Jozwik, K.",
+			"Cohen, M.A.",
+			"Kanwisher, N.G.",
+			"Yamins, D.L.K.",
+			"DiCarlo, J.J."
+		],
+		"journal": "bioRxiv",
+		"year": "2020",
+		"url": "https://www.biorxiv.org/content/10.1101/2020.07.09.185116v1",
+		"tag": "br-2020-tdann"
+	}
+]

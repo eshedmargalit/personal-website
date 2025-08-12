@@ -1,0 +1,32 @@
+[
+	{
+		"course": "Stanford CNJCx: Practical Python",
+		"role": "Organizer / Instructor",
+		"year": "CNJCx",
+		"url": "https://stanford-cnjc.github.io/#/CNJCx"
+	},
+	{
+		"course": "Stanford Introduction to Perception (PSYCH 30)",
+		"role": "Teaching Assistant",
+		"year": "2017-2018",
+		"url": ""
+	},
+	{
+		"course": "Stanford Intensive Neuroscience Bootcamp",
+		"role": "Teaching Assistant",
+		"year": "2017",
+		"url": "https://med.stanford.edu/neurogradprogram/prospective_students/bootcamp.html"
+	},
+	{
+		"course": "Stanford Splash",
+		"role": "Instructor",
+		"year": "2017",
+		"url": "https://stanfordesp.org"
+	},
+	{
+		"course": "Stanford Brain Day",
+		"role": "Instructor",
+		"year": "2017",
+		"url": "https://med.stanford.edu/neurogradprogram/news_and_events/news/brain-day.html"
+	}
+]

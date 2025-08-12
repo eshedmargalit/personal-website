@@ -1,0 +1,36 @@
+.skill {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.4rem 0.6rem;
+	border: 1px solid var(--foreground);
+	background: color-mix(in srgb, var(--foreground) 2%, transparent);
+}
+
+.skillIcon {
+	font-size: 1.25rem;
+	color: var(--accent-color);
+	display: flex;
+}
+
+.skillName {
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: var(--foreground);
+}
+
+@media (max-width: 768px) {
+	.skill {
+		padding: 0.3rem 0.5rem;
+		gap: 0.4rem;
+	}
+
+	.skillIcon {
+		font-size: 1rem;
+	}
+
+	.skillName {
+		font-size: 0.75rem;
+	}
+}

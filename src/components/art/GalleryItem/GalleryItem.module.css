@@ -1,0 +1,90 @@
+.titleRow {
+	display: flex;
+	margin-bottom: 1rem;
+	gap: 0.75rem;
+}
+
+.toggleButton {
+	background: transparent;
+	color: var(--accent-color);
+	border: 2px solid var(--accent-color);
+	border-radius: 50%;
+	font-size: 0.75rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition:
+		background-color 0.2s ease,
+		color 0.2s ease;
+	width: 1.5rem;
+	height: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.toggleButton:hover,
+.toggleButton:focus {
+	background: var(--accent-color);
+	color: white;
+}
+
+.toggleButton:focus {
+	outline: 2px solid var(--accent-color);
+	outline-offset: 2px;
+}
+
+/* The description has a maximum height of 0 by default, making it hidden.
+   When expanded, it transitions to a height that allows the content to be visible. */
+.description {
+	max-height: 0;
+	overflow: hidden;
+	transition:
+		max-height 0.3s ease-in-out,
+		margin-bottom 0.3s ease-in-out;
+	margin-bottom: 0;
+}
+
+.description.expanded {
+	max-height: 200px;
+	margin-bottom: 1rem;
+}
+
+.description p {
+	padding: 1rem;
+	border-radius: 0;
+	line-height: 1.4;
+	color: var(--foreground);
+
+	/* Set background color with transparency for better readability */
+	background: rgba(var(--accent-color-rgb, 21, 114, 122), 0.1);
+}
+
+.imageContainer {
+	display: flex;
+	justify-content: center;
+	background: #f8f9fa;
+	border-radius: 0;
+	padding: 1rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.galleryImage {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+	.imageContainer {
+		background: #1a1a1a;
+	}
+}
+
+@media (max-width: 768px) {
+	.titleRow {
+		flex-direction: row;
+		align-items: center;
+		gap: 0.5rem;
+	}
+}

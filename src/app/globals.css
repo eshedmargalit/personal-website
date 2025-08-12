@@ -1,0 +1,97 @@
+:root {
+	--background: #f6f8fa;
+	--foreground: #171717;
+	--accent-color: #15727a;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0d1117;
+		--foreground: #ededed;
+		--accent-color: #4fb3bc;
+	}
+}
+
+html,
+body {
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
+/* Main page styles, to be used by most <main> elements */
+.page {
+	min-height: 100svh;
+	padding: 0 1rem 0 1rem;
+
+	/* Set a maximum width for content, and center it */
+	max-width: 1024px;
+	margin: 2rem auto 0 auto;
+}
+
+body {
+	color: var(--foreground);
+	background: var(--background);
+	font-family: gabarito, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+}
+
+@media (max-width: 768px) {
+	.page {
+		padding: 0 0.5rem;
+	}
+}
+
+/* Blog styles */
+/*==========================*/
+/* These go here because blog elements get dynamically added to the page with remark/rehype */
+
+article {
+	margin: 2rem 0;
+}
+
+/* Heading anchor links */
+.heading-link {
+	text-decoration: none;
+
+	/* Create some space between the heading and the link */
+	margin-left: 0.5rem;
+
+	/* Hide section link by default */
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+
+.heading-link:hover {
+	color: var(--accent-color);
+	text-decoration: none;
+	opacity: 1;
+}
+
+/* Make sure the icon is visible even if it's the header that is being hovered */
+h1:hover .heading-link,
+h2:hover .heading-link,
+h3:hover .heading-link,
+h4:hover .heading-link,
+h5:hover .heading-link,
+h6:hover .heading-link {
+	opacity: 1;
+}
