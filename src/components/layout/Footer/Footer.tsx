@@ -13,7 +13,7 @@ export function Footer() {
 					<p className={styles.footerText}>
 						This website was made by me; the{" "}
 						<SubtleLink
-							href="https://github.com/eshedmargalit/personal-website-dev"
+							href="https://github.com/eshedmargalit/personal-website"
 							external
 						>
 							source code is here
