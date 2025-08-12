@@ -45,7 +45,7 @@
 }
 
 .description.expanded {
-	max-height: 200px;
+	max-height: 100%;
 	margin-bottom: 1rem;
 }
 
