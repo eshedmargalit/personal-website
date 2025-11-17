@@ -25,7 +25,7 @@ export const RecentNews = ({ className }: RecentNewsProps) => {
                     SITC
                   </SubtleLink>
                   &nbsp;workshop on AI in immuno-oncology, then wrote&nbsp;
-                  <SubtleLink href="" external={false}>
+                  <SubtleLink href="/blog/tumor-towers" external={false}>
                     a blog post
                   </SubtleLink>
                   &nbsp;on some of the ideas presented there.
