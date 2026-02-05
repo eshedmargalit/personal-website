@@ -50,7 +50,7 @@ export const RecentNews = ({ className }: RecentNewsProps) => {
               <div className={styles.newsContent}>
                 <div className={styles.newsText}>
                   I gave a lecture on multimodal world modeling, and how
-                  we&apos;re using it at Noetik, at Stanford&apos;s CS25&nbsp;
+                  we&apos;re using it at NOETIK, at Stanford&apos;s CS25&nbsp;
                   <em>Transformer&apos;s United V5</em> course. You can&nbsp;
                   <SubtleLink
                     href="https://youtu.be/8kXIaUM3h1E?si=tTB5yiEXyaAJasNp"
@@ -86,7 +86,7 @@ export const RecentNews = ({ className }: RecentNewsProps) => {
             <div className={styles.newsItem}>
               <div className={styles.newsContent}>
                 <div className={styles.newsText}>
-                  We (Noetik) released a technical report on our virtual cell
+                  We (NOETIK) released a technical report on our virtual cell
                   work,&nbsp;
                   <SubtleLink
                     href="https://www.noetik.ai/octo-vc"
@@ -161,7 +161,7 @@ export const RecentNews = ({ className }: RecentNewsProps) => {
               <div className={styles.newsContent}>
                 <div className={styles.newsText}>
                   The first technical report describing our approach to world
-                  modeling at Noetik is out now:&nbsp;
+                  modeling at NOETIK is out now:&nbsp;
                   <SubtleLink href="https://www.noetik.ai/octo" external={true}>
                     <em>World Models as Simulators of Patient Biology</em>
                   </SubtleLink>
