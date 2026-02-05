@@ -47,8 +47,8 @@ export default function ResumePage() {
 					<div className={styles.resumeItem}>
 						<div className={styles.resumeItemHeader}>
 							<div className={styles.resumeItemTitle}>
-								<h3>Principal Machine Learning Scientist</h3>
-								<h4>Noetik, Inc.</h4>
+								<h3>Director, Machine Learning Research</h3>
+								<h4>NOETIK, Inc.</h4>
 							</div>
 							<div className={styles.resumeDate}>2023 - Present</div>
 						</div>

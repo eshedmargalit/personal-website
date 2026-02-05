@@ -30,7 +30,7 @@ export function Header() {
 				<p>
 					I work on machine learning for cancer immunotherapy at{" "}
 					<SubtleLink href="https://noetik.ai" external>
-						Noetik
+						NOETIK
 					</SubtleLink>
 					. My background is in computational neuroscience, computer vision, and
 					Neuro-AI. I also like creating tools for scientists and sharing

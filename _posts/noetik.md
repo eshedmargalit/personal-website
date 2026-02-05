@@ -13,11 +13,11 @@ I pondered the big questions, like "how specialized are cortical circuits for th
 
 ![Real training examples from ImageNet with their real labels](/blog/noetik/imagenet.png)
 
-Nevermind that this particular sampling raises. The point is, I've spent a lot of time as a "vision person" and gotten well and truly into the weeds there. [^1] That's why I found myself as surprised as anybody to be almost two years into my time at [Noetik](https://noetik.ai), a cancer immunology biotech, and doing some of the most exciting research of my career. In this post I'm going to explain what we're doing at Noetik, where I think this all goes next, and, sure, I'll say whether I think AI will cure cancer.
+Nevermind that this particular sampling raises. The point is, I've spent a lot of time as a "vision person" and gotten well and truly into the weeds there. [^1] That's why I found myself as surprised as anybody to be almost two years into my time at [NOETIK](https://noetik.ai), a cancer immunology biotech, and doing some of the most exciting research of my career. In this post I'm going to explain what we're doing at NOETIK, where I think this all goes next, and, sure, I'll say whether I think AI will cure cancer.
 
-_Disclaimer: these views are mine and mine alone, and don't reflect the position of others at Noetik or the company more broadly._
+_Disclaimer: these views are mine and mine alone, and don't reflect the position of others at NOETIK or the company more broadly._
 
-# Why do I work at Noetik?
+# Why do I work at NOETIK?
 ## Reason 1: To try and help cancer patients
 
 The glaringly obvious reason to work at a company trying to improve treatment of cancer is that cancer is a terrible disease. 
@@ -30,7 +30,7 @@ Of course the average person knows that cancer is _THE_ disease that we should a
 With respect to this last point, the situation has improved somewhat in recent years due to [the rise of immunotherapies](https://www.nature.com/articles/s41423-020-0488-6): treatments that support the patient's own immune system in recognizing and attacking tumors. Unfortunately even this promising new class of treatments is not guaranteed to work for every patient, to put things mildly. A big part of the problem is that even when we find a drug that works astonishingly well for some people, we can't easily predict who those "responders" will be ahead of time.
 The reasons for this are understandable: the efficacy of a drug can depend on patient-specific idiosyncracies that are hard to measure and harder to generalize.
 
-The bet we're making at Noetik is that advanced machine learning methods, fueled by a rich multimodal dataset of tissue samples from real cancer patients, is going to be able to match patients with a drug that will work for them. I won't go into the detailed methods here, but we're quite (unusually?) open about our approach in [technical reports on the company website](https://www.noetik.ai/research).
+The bet we're making at NOETIK is that advanced machine learning methods, fueled by a rich multimodal dataset of tissue samples from real cancer patients, is going to be able to match patients with a drug that will work for them. I won't go into the detailed methods here, but we're quite (unusually?) open about our approach in [technical reports on the company website](https://www.noetik.ai/research).
 
 ![An analysis done by prompting a world model to predict gene expression, conditioned on the local characteristics of the patient's tissue](/blog/noetik/octo_vc.png)
 
@@ -38,15 +38,15 @@ The core idea is that we're building "world models", or simulators, of patient t
 There's a lot of work to be done here, but I'm very optimistic about this strategy in general.
 
 ## Reason 2: To build advanced world models
-Something I find myself telling people very often is that even if, for whatever reason, you didn't care at all about curing cancer, I believe Noetik would _still_ be a uniquely interesting place to work. 
+Something I find myself telling people very often is that even if, for whatever reason, you didn't care at all about curing cancer, I believe NOETIK would _still_ be a uniquely interesting place to work. 
 
 By the time I finished my PhD, the chaotic early days of machine learning had faded into a kind of convergent sameness. Everybody was using the same architectures on the same datasets, and competing for fractions of a percent improvement on the same tasks. 
 There was also a looming feeling that academic labs or smaller organizations were going to get depressingly outcompeted by huge companies with massive budgets. If the answer to having a better vision model is "train on an internet's worth of images", only a few companies can really pull that off, and everyone else is left trying to make sense of toy models.
 
 The situation in biotech right now is different in almost every way: there is not even a hint of consensus about the best dataset, task, or model architecture to use for pretraining, and there's even less agreement about how to use models for therapeutics once they're trained.
-Noetik has taken an opinionated stance on these questions: we generate a large multimodal dataset from real patient tumor samples, and train transformer-based foundation models on those data.
+NOETIK has taken an opinionated stance on these questions: we generate a large multimodal dataset from real patient tumor samples, and train transformer-based foundation models on those data.
 
-![Overview of data modalities at Noetik, including H&E imaging, protein immunofluorescent imaging, spatial transcriptomics, and whole exome sequencing](/blog/noetik/data_modalities.png)
+![Overview of data modalities at NOETIK, including H&E imaging, protein immunofluorescent imaging, spatial transcriptomics, and whole exome sequencing](/blog/noetik/data_modalities.png)
 
 As an ML scientist, this puts me in the following position:
 1. There is a continuous stream of data coming out of our lab in South San Francisco, expanding the breadth and depth of our dataset. Every time we train a new model, there is slightly more and slightly richer data to learn from.
