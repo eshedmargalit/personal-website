@@ -12,6 +12,34 @@ export const RecentNews = ({ className }: RecentNewsProps) => {
       <h2>What&apos;s new:</h2>
       <div className={styles.content}>
         <ul>
+          {/* TARIO Blogs */}
+          <li>
+            <div className={styles.newsItem}>
+              <div className={styles.newsContent}>
+                <div className={styles.newsText}>
+                  Some of my work at NOETIK has been published in a pair of blog posts, one on&nbsp;
+                  <SubtleLink href="https://www.noetik.blog/p/scaling-behavior-of-tario" external={true}>
+                    TARIO, a foundation model built on spatial transcriptomics (SpT)
+                  </SubtleLink>
+                  &nbsp;and one on&nbsp;
+                  <SubtleLink href="https://www.noetik.blog/p/tario-2-a-whole-transcriptome-foundation" external={false}>
+                    TARIO-2, a multi-modal H&E and SpT foundation model
+                  </SubtleLink>.
+                </div>
+                <div className={styles.newsDate}>April 2026</div>
+              </div>
+              <ClickableImage
+                src="/news/tario2.jpeg"
+                alt="Screenshot from the TARIO-2 interactive explorer"
+                url="tario2.noetik.ai"
+                width={600}
+                height={400}
+                className={styles.newsImage}
+                isDark
+              />
+            </div>
+          </li>
+
           {/* SITC Talk */}
           <li>
             <div className={styles.newsItem}>
