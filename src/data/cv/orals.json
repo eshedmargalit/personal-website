@@ -1,19 +1,11 @@
 [
 	{
-		"title": "Differential representation of object category information across lateral and medial ventral temporal cortex revealed with ultra-high-resolution fMRI",
-		"authors": [
-			"Margalit, E.",
-			"Jamison, K.",
-			"Weiner, K.S.",
-			"Vizioli, L.",
-			"Zhang, R.",
-			"Kay, K.N.",
-			"Grill-Spector, K."
-		],
-		"journal": "Society for Neuroscience Annual Conference (SfN)",
-		"year": "2018",
-		"url": "https://www.abstractsonline.com/pp8/#!/4649/presentation/41470",
-		"tag": "sfn-2018-differential"
+		"title": "Simulating Virtual Cells in Human Tissue to Predict Treatment Outcomes: Use Cases Enabled by Multimodal Foundation Models",
+		"authors": ["Margalit, E."],
+		"journal": "SITC",
+		"year": "2025",
+		"url": "https://www.sitcancer.org/2025/schedule/sitc25-preconference#workshop",
+		"tag": "sitc-2025-virtualcells-oral"
 	},
 	{
 		"title": "Ultra-high-resolution fMRI reveals differential representation of categories and domains across lateral and medial ventral temporal cortex",
@@ -30,5 +22,21 @@
 		"year": "2019",
 		"url": "",
 		"tag": "vss-2019-7t"
+	},
+	{
+		"title": "Differential representation of object category information across lateral and medial ventral temporal cortex revealed with ultra-high-resolution fMRI",
+		"authors": [
+			"Margalit, E.",
+			"Jamison, K.",
+			"Weiner, K.S.",
+			"Vizioli, L.",
+			"Zhang, R.",
+			"Kay, K.N.",
+			"Grill-Spector, K."
+		],
+		"journal": "Society for Neuroscience Annual Conference (SfN)",
+		"year": "2018",
+		"url": "https://www.abstractsonline.com/pp8/#!/4649/presentation/41470",
+		"tag": "sfn-2018-differential"
 	}
 ]
