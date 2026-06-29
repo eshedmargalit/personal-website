@@ -45,7 +45,7 @@ export default function CVPage() {
 			<h1 className={styles.cvTitle}>Curriculum Vitae</h1>
 			<div className={styles.cvDownload}>
 				<a
-					href="/202507_CV.pdf"
+					href="/202607_CV.pdf"
 					className={styles.cvDownloadLink}
 					title="Download CV PDF"
 				>

@@ -11,7 +11,7 @@ export default function ResumePage() {
 			<h1 className={styles.resumeTitle}>Resume</h1>
 			<div className={styles.resumeDownload}>
 				<a
-					href="/202507_Resume.pdf"
+					href="/202607_Resume.pdf"
 					className={styles.resumeDownloadLink}
 					title="Download Resume PDF"
 				>
