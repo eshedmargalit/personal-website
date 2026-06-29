@@ -171,7 +171,7 @@ export default function ResumePage() {
 								</li>
 								<li>
 									Published 16 papers and preprints in computational
-									neuroscience and machine learning, cited by 700+. Presented at
+									neuroscience and machine learning, cited by 900+. Presented at
 									leading conferences while working with profs. Dan Yamins,
 									Kalanit Grill-Spector, and Irving Biederman
 								</li>
