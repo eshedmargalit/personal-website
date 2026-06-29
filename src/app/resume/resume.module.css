@@ -123,6 +123,31 @@
 	font-weight: 500;
 }
 
+.employerDivider {
+	border: none;
+	border-top: 1px solid color-mix(in srgb, var(--foreground) 15%, transparent);
+	margin: 1.5rem 0;
+}
+
+.resumeRoleGroup {
+	margin-bottom: 1rem;
+}
+
+.resumeRoleGroup:last-child {
+	margin-bottom: 0;
+}
+
+.resumeRole {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 1rem;
+}
+
+.resumeRole h4 {
+	font-weight: 500;
+}
+
 .resumeItemDetails {
 	margin-left: 0;
 	color: color-mix(in srgb, var(--foreground) 85%, transparent);
@@ -146,7 +171,8 @@
 		padding: 0 0.5rem;
 	}
 
-	.resumeItemHeader {
+	.resumeItemHeader,
+	.resumeRole {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 0.25rem;

@@ -32,7 +32,7 @@ export default function ResumePage() {
 						apply them to complex spatial data in vision and biology. In my PhD,
 						I developed neural networks that predict the structure, function,
 						and development of the brain&apos;s visual system. I&apos;ve also
-						worked as the Principal AI Scientist at a stealth research startup
+						worked as the founding Principal AI Scientist at a stealth research startup
 						building flexible and queryable self-supervised learning systems.
 					</p>
 				</section>
@@ -46,39 +46,97 @@ export default function ResumePage() {
 					{/* Noetik */}
 					<div className={styles.resumeItem}>
 						<div className={styles.resumeItemHeader}>
-							<div className={styles.resumeItemTitle}>
-								<h3>Director, Machine Learning Research</h3>
-								<h4>NOETIK, Inc.</h4>
-							</div>
+							<h3>NOETIK, Inc.</h3>
 							<div className={styles.resumeDate}>2023 - Present</div>
 						</div>
-						<div className={styles.resumeItemDetails}>
-							<ul>
-								<li>
-									Developing novel Transformer-based models to learn from
-									large-scale multimodal biological data and applying those
-									models to propose precision immunotherapies
-								</li>
-								<li>
-									Designed and wrote a flexible, scalable ML framework for
-									distributed model training with PyTorch, Ray, and a custom
-									train loop
-								</li>
-								<li>
-									Leading AI interpretability work, including integration with
-									SAEs, LLMs and custom web UIs for data exploration and model
-									inference
-								</li>
-							</ul>
+						{/* Vice President, AI Research */}
+						<div className={styles.resumeRoleGroup}>
+							<div className={styles.resumeRole}>
+								<h4>Vice President, AI Research</h4>
+								<div className={styles.resumeDate}>2026 - Present</div>
+							</div>
+							<div className={styles.resumeItemDetails}>
+								<ul>
+										<li>Responsible for the direction and execution of Noetik&apos;s AI research agenda, leading a team of exceptional scientists</li>
+								</ul>
+							</div>
+						</div>
+
+						{/* Director, Machine Learning Research */}
+						<div className={styles.resumeRoleGroup}>
+							<div className={styles.resumeRole}>
+								<h4>Director, Machine Learning Research</h4>
+								<div className={styles.resumeDate}>2026</div>
+							</div>
+							<div className={styles.resumeItemDetails}>
+								<ul>
+									<li>
+											Led training and analysis of{" "}
+											<SubtleLink
+												href="https://www.noetik.blog/p/tario-2-a-whole-transcriptome-foundation"
+												external
+											>
+												TARIO-2
+											</SubtleLink>
+											, a multimodal model trained to predict spatial
+											transcriptomics from H&amp;E images
+										</li>
+									<li>Oversaw application of internal foundation models to predict response to drug treatment from pre-treatment clinical samples</li>
+									<li>Created internal tools integrating visualization of model inference with internal agentic AI co-scientists</li>
+								</ul>
+							</div>
+						</div>
+
+						{/* Machine Learning Scientist */}
+						<div className={styles.resumeRoleGroup}>
+							<div className={styles.resumeRole}>
+								<h4>Principal Machine Learning Scientist</h4>
+								<div className={styles.resumeDate}>2023 - 2025</div>
+							</div>
+							<div className={styles.resumeItemDetails}>
+								<ul>
+									<li>
+										Promoted twice, to Senior then Principal, in under 1.5 years
+									</li>
+									<li>
+										Designed and wrote from scratch a flexible, scalable ML framework for
+										distributed model training with PyTorch, Ray, and a custom
+										train loop that underlies all ML work at Noetik
+									</li>
+									<li>
+										Developed{" "}
+										<SubtleLink href="https://www.noetik.ai/octo" external>
+											OCTO
+										</SubtleLink>
+										,{" "}
+										<SubtleLink href="https://www.noetik.ai/octo-vc" external>
+											OCTO-vc
+										</SubtleLink>
+										, and{" "}
+										<SubtleLink
+											href="https://www.noetik.blog/p/scaling-behavior-of-tario"
+											external
+										>
+											TARIO
+										</SubtleLink>
+										, a family of novel and proprietary multimodal models trained on large-scale patient data. Applied these models to generate insights into patient stratification and target discovery
+									</li>
+									<li>
+										Led AI interpretability work, including the design and training of hierarchical and counterfactual sparse autoencoders (SAEs)
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
+
+					<hr className={styles.employerDivider} />
 
 					{/* Stealth Startup */}
 					<div className={styles.resumeItem}>
 						<div className={styles.resumeItemHeader}>
 							<div className={styles.resumeItemTitle}>
-								<h3>Principal AI Scientist</h3>
-								<h4>Stealth Startup</h4>
+								<h3>Stealth Startup</h3>
+								<h4>Principal AI Scientist</h4>
 							</div>
 							<div className={styles.resumeDate}>2023</div>
 						</div>
@@ -93,14 +151,16 @@ export default function ResumePage() {
 						</div>
 					</div>
 
+					<hr className={styles.employerDivider} />
+
 					{/* Stanford */}
 					<div className={styles.resumeItem}>
 						<div className={styles.resumeItemHeader}>
 							<div className={styles.resumeItemTitle}>
-								<h3>Researcher</h3>
-								<h4>Stanford University</h4>
+								<h3>Stanford University</h3>
+								<h4>Researcher</h4>
 							</div>
-							<div className={styles.resumeDate}>2016-2023</div>
+							<div className={styles.resumeDate}>2016 - 2023</div>
 						</div>
 						<div className={styles.resumeItemDetails}>
 							<ul>
@@ -119,14 +179,16 @@ export default function ResumePage() {
 						</div>
 					</div>
 
+					<hr className={styles.employerDivider} />
+
 					{/* ANC */}
 					<div className={styles.resumeItem}>
 						<div className={styles.resumeItemHeader}>
 							<div className={styles.resumeItemTitle}>
-								<h3>Lead Research Scientist</h3>
-								<h4>ANC Group, LLC</h4>
+								<h3>ANC Group, LLC</h3>
+								<h4>Lead Research Scientist</h4>
 							</div>
-							<div className={styles.resumeDate}>2019-2023</div>
+							<div className={styles.resumeDate}>2019 - 2023</div>
 						</div>
 						<div className={styles.resumeItemDetails}>
 							<ul>
@@ -170,7 +232,7 @@ export default function ResumePage() {
 								<h3>PhD in Neurosciences</h3>
 								<h4>Stanford University</h4>
 							</div>
-							<div className={styles.resumeDate}>2016-2022</div>
+							<div className={styles.resumeDate}>2016 - 2022</div>
 						</div>
 						<div className={styles.resumeItemDetails}>
 							<p>
@@ -187,7 +249,7 @@ export default function ResumePage() {
 								<h4>Minor in Computer Science</h4>
 								<h4> University of Southern California</h4>
 							</div>
-							<div className={styles.resumeDate}>2016-2022</div>
+							<div className={styles.resumeDate}>2016 - 2022</div>
 						</div>
 					</div>
 				</section>

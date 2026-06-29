@@ -28,7 +28,7 @@ export function Header() {
 					Computational Neuroscience and AI Researcher
 				</h2>
 				<p>
-					I work on machine learning for cancer immunotherapy at{" "}
+					I lead AI research on multimodal foundation models of patient biology at {" "}
 					<SubtleLink href="https://noetik.ai" external>
 						NOETIK
 					</SubtleLink>

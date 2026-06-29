@@ -9,7 +9,7 @@ ogImage:
 
 Hi, I'm Eshed! This blog is a place for my thoughts on neuroscience, machine learning, and science more broadly.
 
-I currently work as an ML researcher at [NOETIK](https://www.noetik.ai/), which is my first foray into cancer immunology.
+I'm currently VP of AI Research at [NOETIK](https://www.noetik.ai/).
 
 Before that, I worked as the founding engineer/researcher at a stealth startup inventing new approaches to self-supervised learning of world models.
 
